@@ -1,0 +1,10 @@
+// Author: Olivia Anastassov
+// must be in:
+// DijkstrasAlgorithm/Java/UnitTests
+
+// compile all classes
+javac -d ../Classes/ ../*/*.java    
+
+// run Java on txt file, output grf and spv and tre files for Mathematica viewer
+
+java -cp ../Classes MainSP ../../Data/GrfWTxt/dag01.txt ../../Data/GrfWSpvTre/
